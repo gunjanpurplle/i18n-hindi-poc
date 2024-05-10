@@ -1,3 +1,18 @@
+## COMMANDS: 
+
+- project name is `azcadea`
+- `ng add @angular/localize` to install localize package.
+- configuration of angular.json.
+- `ng extract-i18n --output-path src/locale` to extract all the locales in source locale file.
+- `ng build --localize` to generate build separate build for each locale in dist
+- serve the build using `serve dist/azcadea` or `npx http-server dist/azcadea`
+- run local build using `ng serve` (doesn't work as expected, problem in routing).
+
+## REFERENCES
+
+- [github repo](https://github.com/PhraseApp-Blog/angular-i18n-2022)
+- [article/bloc](https://phrase.com/blog/posts/angular-localization-i18n/)
+
 # Azcadea
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
@@ -25,13 +40,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## COMMANDS: 
-
-- project name is `azcadea`
-- `ng add @angular/localize` to install localize package.
-- configuration of angular.json.
-- `ng extract-i18n --output-path src/locale` to extract all the locales in source locale file.
-- `ng build --localize` to generate build separate build for each locale in dist
-- serve the build using `serve dist/azcadea` or `npx http-server dist/azcadea`
-- run local build using `ng serve` (doesn't work as expected, problem in routing).
