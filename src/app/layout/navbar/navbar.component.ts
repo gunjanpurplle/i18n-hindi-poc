@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
   home: string = $localize`Home`;
-  about: string = $localize`About`;
 }
