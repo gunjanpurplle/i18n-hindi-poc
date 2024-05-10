@@ -10,8 +10,8 @@
 
 ## REFERENCES
 
-- [github repo](https://github.com/PhraseApp-Blog/angular-i18n-2022)
-- [article/bloc](https://phrase.com/blog/posts/angular-localization-i18n/)
+- #### [github repo](https://github.com/PhraseApp-Blog/angular-i18n-2022)
+- #### [article/blog](https://phrase.com/blog/posts/angular-localization-i18n/)
 
 # Azcadea
 
